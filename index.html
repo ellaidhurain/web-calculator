@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web-calculator</title>
+  </head>
+  <body>
+    <div id="app" class="text-white bg-gray-900 py-4 min-h-screen">
+      <!-- card -->
+      <div
+        class="card p-5 max-w-sm mx-auto bg-gray-800 border border-gray-700 rounded-md shadow-lg"
+      >
+        <div class="card-heading text-xl tracking-wider">calculator</div>
+        <div class="card-body">
+          <div class="text-4xl px-5 uppercase my-10 text-right py-4">
+            50 + 5
+          </div>
+          <div class="flex">
+            <div class="w-10/12 pr-5">
+              <div class="grid grid-cols-3 gap-5">
+                <button
+                  class="bg-opacity-25 hover:bg-opacity-40 rounded-md font-semibold text-red-500 bg-red-600"
+                >
+                  C
+                </button>
+                <button class="btnStyle">(</button>
+                <button class="btnStyle">)</button>
+                <button class="btnStyle">7</button>
+                <button class="btnStyle">8</button>
+                <button class="btnStyle">9</button>
+                <button class="btnStyle">4</button>
+                <button class="btnStyle">5</button>
+                <button class="btnStyle">6</button>
+                <button class="btnStyle">1</button>
+                <button class="btnStyle">2</button>
+                <button class="btnStyle">3</button>
+                <button class="btnStyle col-span-2">0</button>
+                <button class="btnStyle">.</button>
+              </div>
+            </div>
+            <div class="w-2/12 flex flex-col gap-5">
+              <button class="btnStyleOperand">/</button>
+              <button class="btnStyleOperand">x</button>
+              <button class="btnStyleOperand">-</button>
+              <button class="btnStyleOperand">+</button>
+              <button class="btnStyleSum">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

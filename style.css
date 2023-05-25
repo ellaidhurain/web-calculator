@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply font-Barlow;
+}
+
+.btnStyle {
+    @apply bg-gray-700 py-4 rounded-md text-xl hover:bg-gray-600 font-Barlow
+}
+
+.btnStyleOperand {
+    @apply bg-yellow-600 py-4 rounded-md text-xl hover:bg-yellow-500 font-semibold
+}
+
+.btnStyleSum {
+    @apply bg-green-600 py-4 rounded-md text-xl hover:bg-green-500 font-semibold
+}
