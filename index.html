@@ -13,26 +13,27 @@
         class="card p-5 max-w-sm mx-auto bg-gray-800 border border-gray-700 rounded-md shadow-lg"
       >
         <div class="card-heading text-xl tracking-wider">calculator</div>
-        
+
         <div class="card-body">
-         
-          <div class=" px-5 uppercase my-5 text-right py-4">
-            <div class="text-xl mb-2 text-gray-500 fixed " id="input_text"></div>
+          <div class="px-5 uppercase my-5 text-right py-4">
+            <div class="text-xl mb-2 text-gray-500 fixed" id="input_text"></div>
             <div class="text-4xl" id="output_text">0</div>
           </div>
           <div class="flex">
-            
             <div class="w-10/12 pr-5">
               <div class="grid grid-cols-3 gap-5">
                 <button
-                  class="bg-opacity-25 hover:bg-opacity-40 rounded-md font-semibold text-red-500 bg-red-600 key" data-key="clear"
+                  class="bg-opacity-25 hover:bg-opacity-40 rounded-md font-semibold text-red-500 bg-red-600 key"
+                  data-key="clear"
                 >
                   C
                 </button>
-                <button class="btnStyle key action" data-key="brackets">( )</button>
+                <button class="btnStyle key action" data-key="brackets">
+                  ( )
+                </button>
                 <button class="btnStyle key action" data-key="%">%</button>
 
-                <button class="btnStyle key" data-key="7" >7</button>
+                <button class="btnStyle key" data-key="7">7</button>
                 <button class="btnStyle key" data-key="8">8</button>
                 <button class="btnStyle key" data-key="9">9</button>
                 <button class="btnStyle key" data-key="4">4</button>
@@ -41,20 +42,33 @@
                 <button class="btnStyle key" data-key="1">1</button>
                 <button class="btnStyle key" data-key="2">2</button>
                 <button class="btnStyle key" data-key="3">3</button>
-                <button class="btnStyle key action" data-key="backspace">&lt;</button>
+                <button class="btnStyle key action" data-key="backspace">
+                  &lt;
+                </button>
                 <button class="btnStyle key" data-key="0">0</button>
                 <button class="btnStyle key" data-key=".">.</button>
               </div>
             </div>
             <div class="w-2/12 flex flex-col gap-5">
-              <button class="btnStyleOperand key operator" data-key="/">/</button>
-              <button class="btnStyleOperand key operator" data-key="*">x</button>
-              <button class="btnStyleOperand key operator" data-key="-">-</button>
-              <button class="btnStyleOperand key operator" data-key="+">+</button>
-              <button class="btnStyleSum key operator" data-key="=" >=</button>
+              <button class="btnStyleOperand key operator" data-key="/">
+                /
+              </button>
+              <button class="btnStyleOperand key operator" data-key="*">
+                x
+              </button>
+              <button class="btnStyleOperand key operator" data-key="-">
+                -
+              </button>
+              <button class="btnStyleOperand key operator" data-key="+">
+                +
+              </button>
+              <button class="btnStyleSum key operator" data-key="=">=</button>
             </div>
           </div>
         </div>
+      </div>
+      <div class="text-center pt-3 max-w-sm mx-auto text-sm opacity-30">
+        <span>created by ellai dhurai</span>
       </div>
     </div>
     <script type="module" src="/main.js"></script>
