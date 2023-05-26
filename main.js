@@ -6,15 +6,17 @@ const keys = document.querySelectorAll(".key");
 
 let input = '';
 
+// loop all data from dataset
 for(let key of keys){
-    let value = key.dataset.key
+    let value = key.dataset.key // get value
 
+    // add event listener for every value in the button 
     key.addEventListener('click',()=>{
         if(value == "clear"){
             input = "";
             input_text.textContent = "";
             output_text.textContent = 0;
-        }else if(value == "backspace"){
+        }else if(value == "backspace"){     
             input = input.slice(0, -1); // remove last element
             input_text.textContent = input;
         }else if(value == "="){
